@@ -23,6 +23,13 @@ const codeStyles = {
   borderRadius: 4,
 }
 
+
+/**=========================================================================================== *
+ * ==========  NOT FOUND PAGE =============================== *
+ * - FOR ANY INVALID LINK, THIS COMPONENT IS RETURNED  (IN PRODUCTION ONLY)
+ * - IN DEV MODE, SOME CREATE PAGE INSTRUCTION IS RETURNED WITH THIS LINK
+ * =========================================================================================== */
+
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
